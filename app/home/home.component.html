@@ -1,0 +1,12 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Home"></Label>
+</ActionBar>
+
+<GridLayout class="page">
+    <StackLayout>
+        <Label [text]="counter"></Label>
+        <Button (tap)="decrement()" text="Decrement"></Button>
+        <Button (tap)="increment()" text="Increment"></Button>
+    </StackLayout>
+
+</GridLayout>
